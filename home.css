@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    line-height: 1.6;
+    
+    
+}
+
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+}
+.top p{
+    color: hsl(192, 100%, 9%);
+}
+.top{
+    
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.top .textAndImage{
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.image img{
+    width: 15%;
+    height: auto;
+    padding-top: 3%;
+    padding-left: 5%;
+
+}
+.textAndImage img{
+    width: 55%;
+    height: auto;
+    padding-left: 7%;
+}
+.head button{
+    font-family: 'Poppins', sans-serif ;
+    color: hsl(192, 100%, 9%);
+    float: right;
+    background-color: white;
+    margin-right: 5%;
+
+    width: 190px;
+    height: 40px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.344);
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.344);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.344);
+}
+.head button:hover{
+    cursor: pointer;
+    opacity: 0.85;
+}
+.text button{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    margin-top: 5%;
+
+    width: 250px;
+    height: 40px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.344);
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.344);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.344);
+}
+.text button:hover{
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.top .textAndImage .text{
+   
+    margin-top: 5%;
+    line-height: 1.3;
+}
+
+.top .textAndImage .text h1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+   padding-right: 10%;
+   margin-right: 5%;
+}
+
+.card1{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.65%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.card1 img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+}
+.card1 .text{
+    line-height: 1.2;
+    padding: 10%;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.65%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.card2 img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+}
+.card2 .text{
+    line-height: 1.2;
+    padding: 10%;
+}
+
+.card3{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.65%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.card3 img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+}
+.card3 .text{
+    line-height: 1.2;
+    padding: 10%;
+}
+
+.container{
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 0.9%;
+    margin-left: 30%;
+    width: 40%;
+    height: auto;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 30%;
+    bottom: 80%;
+}
+
+.container h2{
+
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.container button{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: inline-block;
+    background-color: hsl(322, 100%, 66%);
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 50%;
+
+    width: 40%;
+    height: 50px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.344);
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.344);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.344);
+}
+
+.container button:hover{
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+}
+
+footer p{
+    color:white;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+footer p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer .box1{
+    flex-direction: column;
+    margin-right: 3%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    width: 40%;
+}
+
+footer .box2{
+    flex-direction: column;
+    margin-right: 8%;
+    padding-top: 15%;
+}
+
+footer .box2 p{
+    padding-bottom: 10% ;
+}
+
+footer .box3{
+    flex-direction: column;
+    margin-right: 10%;
+    padding-top: 15%;
+}
+footer .box3 p{
+    padding-bottom: 10% ;
+}
+
+footer .box4{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 15%;
+    font-size: 10px;
+}
+
+footer .box4 img{
+    width: 30px;
+}
+footer .box4 img:hover{
+    cursor: pointer;
+}
+
+footer .box1 .adress{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 950px){
+
+    
+}
